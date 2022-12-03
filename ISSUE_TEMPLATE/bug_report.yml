@@ -30,6 +30,17 @@ body:
         4. See error
     validations:
       required: true
+
+  - type: textarea
+    id: versions
+    attributes:
+      label: Which version of the app are you using?
+      description: If this issue is occurring on more than 1 version of the app, enter the appropriate versions.
+       placeholder: |
+       1.0.0
+    validations:
+      required: true
+
   - type: textarea
     id: additional-information
     attributes:
